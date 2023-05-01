@@ -11,6 +11,7 @@
     <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
     
 	<style>
+
         .social-media img {
   width: 30px;
   height: 30px;
@@ -50,7 +51,7 @@
 			text-align: center;
 			margin-bottom: 20px;
 		}
-.button-container {
+    .button-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,7 +63,7 @@
   align-items: center;
   justify-content: center;
   background-color: #1e90ff;
-  color: #fff;
+  color: #000000;
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
@@ -73,8 +74,62 @@
   max-width: 400px;
   margin-bottom: 20px;
 }
+
+
+
+.form {
+  border: 1px solid #000000;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: ffbf00;
+  border: none;
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 48px;
+  height: 48px;
+  color: #000000;
+  min-width: 212px;
+  background-color: #ffbf00;
+  text-align: center;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+  border-radius: 6px;
+  
+}
+
+
 	</style>
 </head>
+
+
+
+
+
 <body>
     <a target="_blank" href="https://www.instagram.com/beefytshields/"><img style="max-width: 300px; margin: auto; display: flex;" src="Untitled design.png" alt="Logo"></a>
 	<div class="container">
@@ -85,7 +140,7 @@
             <p>You'll dive into a variety of difficult-to-master skills and drills; capstoned by Tom's unprecented approach to underwater techniques. Tom will share his personal insights, mental performance secrets, and in-depth tips for achieving peak performance, all while fostering a supportive and motivational environment for competitive swimmers of all levels!!</p>
             <p>Don't miss this chance to make a splash with Tom Shields and elevate your swimming prowess. Space is limited, so sign up today and secure your spot at this once-in-a-lifetime experience!</p>
 		<br> <br>
-            <h2 style="margin-bottom: 0;">Itinerary</h2>
+            <h3 style="margin-bottom: 0;">Itinerary</h3>
             <ul style="list-style: none; text-align: left; margin-top: 0; margin-bottom: 0;">
                 <li><strong>Water Time:</strong> 1:30 Demo's & Instruction</li>
                 <li><strong>Dryland:</strong> 30min Lesson*</li>
@@ -94,14 +149,18 @@
             <div style="max-width: 300px;
             margin: 0 auto;"><p style="margin-top: 0; font-size: 9pt;">*Varies, Topics Include: Goal Setting, Career Planning, Visualization, Mental Performance, Pace and Practice, "Building Blocks" Lecture, Stories, Q + A.</p></div>
             
-            
+   
         
+            <hr style="border: none; border-top: 2px solid #ccc; margin: 30px 0;">
+           
         
+            <h2 style="text-align: center;">Sign Up Today!!</h2>
+            <p style="text-align: center;font-size: smaller;margin-top: -20px;">Ages 5-17</p>
+<div class="location-container">
+    
+      <br>  
         
     
-        
-        
-        </header>
 		<div class="button-container">
 			<div style="
   overflow: auto;
@@ -111,7 +170,7 @@
   align-items: center;
   width: 259px;
   background: #FFFFFF;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #000000;
   box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
   border-radius: 10px;
   font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
@@ -161,7 +220,7 @@ justify-content: flex-end;
 align-items: center;
 width: 259px;
 background: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.1);
+border:1px solid #000000;
 box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
 border-radius: 10px;
 font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
@@ -196,7 +255,39 @@ font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
 </div>
 		</div>
 	</div>
+
+<p style="text-align: center; margin-top: 5px;">Must be a USA Swimming Member</p>
+<p style="text-align: center;font-size: smaller;margin-top: -20px;">Verification Required</p>
+
+<hr style="border: none; border-top: 2px solid #ccc; margin: 30px 0;">
+
+
+<h2 style="margin-bottom: 0;">Contact Us</h2>    
+<p style="margin-top: 0; font-size: small;">Stay connected for future dates!</p>    
+<div class="form">
+<form action="https://formspree.io/f/mqkowral" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Hello Tom!" required></textarea>
+    
+    <input type="submit" value="Submit">
+  </form>  
+</div>
+
+
+
+
+
+
+
 </body>
+
+
 
 <footer>
     <div class="social-media">
